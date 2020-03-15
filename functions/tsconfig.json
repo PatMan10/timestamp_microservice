@@ -1,15 +1,26 @@
 {
   "compilerOptions": {
+    "lib": ["esnext"],
     "module": "commonjs",
+    "outDir": "./compiled",
+    "target": "es5",
+
+    "allowJs": true,
+    "alwaysStrict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strict": true,
+    "strictBindCallApply": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "noFallthroughCasesInSwitch": true,
     "noImplicitReturns": true,
     "noUnusedLocals": true,
-    "outDir": "lib",
-    "sourceMap": true,
-    "strict": true,
-    "target": "es2017"
+    "noUnusedParameters": true,
+    "removeComments": true
   },
-  "compileOnSave": true,
-  "include": [
-    "src"
-  ]
+  "exclude": ["node_modules"],
+  "include": ["./src/**/*"]
 }
