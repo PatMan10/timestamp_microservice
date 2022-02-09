@@ -1,4 +1,4 @@
-import { Router } from "../../../deps/prod.ts";
+import { Router } from "../../deps.ts";
 import { Timestamp } from "./models.ts";
 import { IndexPage } from "./ui.ts";
 import { URLs } from "./utils.ts";
